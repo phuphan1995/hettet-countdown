@@ -1,0 +1,56 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(ellipse at bottom, #e82219 10%, #33201a 100%);
+  overflow: hidden;
+  text-align: center;
+  color: white;
+  font-family: 'Source Sans Pro';
+}
+
+.main {
+  width: 70%;
+  max-width: 1100px;
+  margin: auto;
+  margin-top: 5%;
+}
+
+h2 {
+  font-size: calc(1rem + 1.5vw);
+}
+
+.clock {
+  float: left;
+  overflow: hidden;
+  background-color: #fff;
+  color: #222;
+  border-radius: 30%;
+  position: relative;
+  width: 20%;
+  height: 0;
+  padding-bottom: 20%;
+  margin: 3% 0 3% 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.num {
+  font-size: 450%;
+  font-weight: 700;
+  height: 0;
+  line-height: 250%;
+}
+
+.text {
+  font-size: 130%;
+  text-transform: uppercase;
+  background-color: #eee;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  line-height: 180%;
+}
