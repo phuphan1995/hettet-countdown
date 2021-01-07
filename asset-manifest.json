@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/phuphan1995/hettet-countdown/static/css/main.c9d27a05.chunk.css",
+    "main.js": "/phuphan1995/hettet-countdown/static/js/main.5b8d950e.chunk.js",
+    "main.js.map": "/phuphan1995/hettet-countdown/static/js/main.5b8d950e.chunk.js.map",
+    "runtime-main.js": "/phuphan1995/hettet-countdown/static/js/runtime-main.0c272073.js",
+    "runtime-main.js.map": "/phuphan1995/hettet-countdown/static/js/runtime-main.0c272073.js.map",
+    "static/js/2.40bed3ac.chunk.js": "/phuphan1995/hettet-countdown/static/js/2.40bed3ac.chunk.js",
+    "static/js/2.40bed3ac.chunk.js.map": "/phuphan1995/hettet-countdown/static/js/2.40bed3ac.chunk.js.map",
+    "static/js/3.950750ee.chunk.js": "/phuphan1995/hettet-countdown/static/js/3.950750ee.chunk.js",
+    "static/js/3.950750ee.chunk.js.map": "/phuphan1995/hettet-countdown/static/js/3.950750ee.chunk.js.map",
+    "index.html": "/phuphan1995/hettet-countdown/index.html",
+    "static/css/main.c9d27a05.chunk.css.map": "/phuphan1995/hettet-countdown/static/css/main.c9d27a05.chunk.css.map",
+    "static/js/2.40bed3ac.chunk.js.LICENSE.txt": "/phuphan1995/hettet-countdown/static/js/2.40bed3ac.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0c272073.js",
+    "static/js/2.40bed3ac.chunk.js",
+    "static/css/main.c9d27a05.chunk.css",
+    "static/js/main.5b8d950e.chunk.js"
+  ]
+}
