@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useAudio, useBoolean, useInterval } from 'react-use';
 import './App.css';
-
+import soundfile from './xuan_nay_con_khong_ve.m4a';
 const HETTETTIME = Date.parse('Feb 21 2021 00:00:00');
 function App() {
   const [days, setDays] = useState(0);
@@ -11,12 +11,15 @@ function App() {
   const [delay, setDelay] = useState(1000);
   const [isRunning, toggleIsRunning] = useBoolean(true);
 
-  const [audio] = useAudio({
-    src:
-      'https://firebasestorage.googleapis.com/v0/b/lvtn-32984.appspot.com/o/music%2Fxuan_nay_con_khong_ve.m4a?alt=media&token=7129858d-c9ba-4bd1-b328-6581d1f80d38',
-    autoPlay: true,
+  const [audio, state, controls, ref] = useAudio({
+    src: soundfile,
+    // autoPlay: true,
     loop: true,
   });
+
+  // useEffect(() => {
+  //   ref.current && controls.play();
+  // }, [ref.current]);
 
   useInterval(
     () => {
@@ -42,7 +45,19 @@ function App() {
   return (
     <div className="container">
       {audio}
+      {/* <iframe src={soundfile} allow="autoplay" id="audio"></iframe> */}
       <div className="main">
+        <button
+          style={{
+            backgroundColor: 'transparent',
+            border: 'unset',
+          }}
+          onClick={() => {
+            controls.play();
+          }}
+        >
+          <h2 id="tetornot">Click vào đây để nghe nhạc nè</h2>
+        </button>
         <h2 id="tetornot">Sắp xa quê rồi!!! Chỉ còn...</h2>
         <div class="clearfix">
           <div class="clock">
