@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hettet-countdown/static/css/main.c9d27a05.chunk.css",
+    "main.css": "/hettet-countdown/static/css/main.b11d14a3.chunk.css",
     "main.js": "/hettet-countdown/static/js/main.c7a28f44.chunk.js",
     "main.js.map": "/hettet-countdown/static/js/main.c7a28f44.chunk.js.map",
     "runtime-main.js": "/hettet-countdown/static/js/runtime-main.51663fb4.js",
@@ -10,14 +10,14 @@
     "static/js/3.950750ee.chunk.js": "/hettet-countdown/static/js/3.950750ee.chunk.js",
     "static/js/3.950750ee.chunk.js.map": "/hettet-countdown/static/js/3.950750ee.chunk.js.map",
     "index.html": "/hettet-countdown/index.html",
-    "static/css/main.c9d27a05.chunk.css.map": "/hettet-countdown/static/css/main.c9d27a05.chunk.css.map",
+    "static/css/main.b11d14a3.chunk.css.map": "/hettet-countdown/static/css/main.b11d14a3.chunk.css.map",
     "static/js/2.40bed3ac.chunk.js.LICENSE.txt": "/hettet-countdown/static/js/2.40bed3ac.chunk.js.LICENSE.txt",
     "static/media/xuan_nay_con_khong_ve.d96c20f0.m4a": "/hettet-countdown/static/media/xuan_nay_con_khong_ve.d96c20f0.m4a"
   },
   "entrypoints": [
     "static/js/runtime-main.51663fb4.js",
     "static/js/2.40bed3ac.chunk.js",
-    "static/css/main.c9d27a05.chunk.css",
+    "static/css/main.b11d14a3.chunk.css",
     "static/js/main.c7a28f44.chunk.js"
   ]
 }
